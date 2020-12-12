@@ -3,3 +3,8 @@
 
 a = "Hello"
 print(a)
+
+'''
+Terminal:
+Hello
+'''
