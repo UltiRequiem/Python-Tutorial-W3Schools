@@ -9,5 +9,5 @@ x = 5
 y = "John"
 print(x + y)
 
-Esto daria error ya que las variables so de diferentes tipos
+Esto daria error ya que las variables son de diferentes tipos
 '''
