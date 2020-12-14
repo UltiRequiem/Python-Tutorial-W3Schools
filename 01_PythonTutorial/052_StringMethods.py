@@ -181,8 +181,94 @@ txt = "Hello Sam!";
 mytable = txt.maketrans("Sam", "Paa");
 print(txt.translate(mytable));
 
+#Partitions
+txt = "I could eat bananas all day"
+
+x = txt.partition("bananas")
+
+print(x)
+
+#Replace the word "bananas":
+txt = "I like bananas"
+
+x = txt.replace("bananas", "chocolat")
+
+print(x)
+
+#Where in the text is the last occurrence of the string "casa"?:
+txt = "Mi casa, su casa."
+
+x = txt.rfind("casa")
+
+print(x)
+
+#Where in the text is the last occurrence of the string "casa"?:
+txt = "banana"
+
+x = txt.rjust(20)
+
+print(x, "is my favorite fruit.")
+
+#rpartition
+'''
+Search for the last occurrence of the word "bananas", and return a tuple with three elements:
+
+1 - everything before the "match"
+2 - the "match"
+3 - everything after the "match"
+'''
+txt = "I could eat bananas all day, bananas are my favorite fruit!"
+
+x = txt.rpartition("bananas")
+
+print(x)
+
+#rsplit: Split a string into a list, using comma, followed by a space (, ) as the separator:
+txt = "apple, banana, cherry"
+
+# setting the maxsplit parameter to 1, will return a list with 2 elements!
+x = txt.rsplit(", ", 1)
+
+print(x)
+
+#Remove any white spaces at the end of the string:
+txt = "     banana     "
+
+x = txt.rstrip()
+
+print("of all fruits", x, "is my favorite")
+
+
+
+
 '''
 Terminal:
-
+Hello, and welcome to my world.
+hello, and welcome to my world!
+15
+       banana
+b'My name is St\xc3\xa5le'
+False
+H e l l o
+7
+For only 49.00 dollars!
+7
+True
+True
+True
+False
+False
+False
+True
+True
+True
+False
+True
+John and Peter and Vicky
+banana               is my favorite fruit.
+hello friends
+of all fruits banana      is my favorite
+Hello Paa!
+('I could eat ', 'bananas', ' all day')
 '''
 #https://www.w3schools.com/python/python_strings_methods.asp
