@@ -32,3 +32,4 @@ Python is a popular programming language. It was created by Guido van Rossum, an
 
 # Download Python
  Download Python from the official Python web site: https://python.org
+# A Discord Sever for Python Learnings: https://discord.gg/TqZAHQF6
